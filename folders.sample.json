@@ -1,0 +1,26 @@
+{
+  "_说明": "这是示例配置。第一次运行 build_workbench.py 时会自动复制成 folders.json，改那一份就行。",
+  "_字段": "groups[].name=分组名；groups[].py=分组拼音（可留空）；groups[].color=左边色条（可留空，自动配色）；cards[].name=卡片名；cards[].path=目录绝对路径；cards[].py=拼音（可留空，留空就只能按中文/路径搜）；cards[].gallery=想把这个目录当图库就填个名字（可留空）",
+  "groups": [
+    {
+      "name": "图 片",
+      "py": "tupian",
+      "color": "#5fb0e8",
+      "cards": [
+        { "name": "我的图片", "path": "C:/Users/你的用户名/Pictures", "py": "wodetupian", "gallery": "我的图片" },
+        { "name": "截图", "path": "C:/Users/你的用户名/Pictures/Screenshots", "py": "jietu", "gallery": "我的图片" }
+      ]
+    },
+    {
+      "name": "文 档",
+      "py": "wendang",
+      "color": "#e8a05f",
+      "cards": [
+        { "name": "文档", "path": "C:/Users/你的用户名/Documents", "py": "wendang", "gallery": "" },
+        { "name": "下载", "path": "C:/Users/你的用户名/Downloads", "py": "xiazai", "gallery": "下载" }
+      ]
+    }
+  ],
+  "add": [],
+  "trash": []
+}
